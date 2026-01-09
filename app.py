@@ -175,7 +175,7 @@ def plot_future_projection(history_df: pd.DataFrame, pred_dates: List[str], pred
 with st.sidebar:
     st.header("Parâmetros (igual a ideia do notebook)")
 
-    base_url = st.text_input("URL base da API", value="http://localhost:8000")
+    base_url = st.text_input("URL base da API", value="https://tc-4-ml.onrender.com")
     st.caption("A API precisa estar rodando com `/predict/yfinance` e `/backtest/yfinance` disponíveis.")
 
     st.divider()
@@ -518,6 +518,7 @@ st.divider()
 # 11) Referências
 # ============================================================
 st.markdown("# Referências")
+
 
 
 
