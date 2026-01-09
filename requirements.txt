@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+scikit-learn
+joblib
+tensorflow
+prometheus-client
+python-dotenv
+pandas
+yfinance

@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=models/lstm_model.keras
+      - SCALER_PATH=models/scaler.pkl
+      - METADATA_PATH=models/metadata.json
